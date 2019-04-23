@@ -1,0 +1,149 @@
+body
+{
+    margin: 0px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.page
+{ 
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: 1px solid #0033FF;
+}
+
+.profile_title
+{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    height: 25px;
+    background: url(./image/shadowTitle.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.profile_avatar
+{
+    float: left;
+    clear: right;
+    margin: 0 15px;
+    width: 90px;
+    height: 100px;
+}
+
+.profile_content
+{
+    margin-left: 5px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.content
+{
+    margin-right: 20px;
+}
+
+.content_title
+{
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.content ul
+{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.content li::before
+{
+    content: url("./image/star.png");
+    margin-right: 5px;
+}
+
+.content li
+{
+    margin-bottom: 8px;
+}
+
+.comment_posted
+{
+    position: relative;
+    padding-top: 0px;
+    height: 80px;
+}
+
+
+.comment_content
+{
+    position: absolute;
+    top: 0px;
+    padding: 5px 0px;
+    width: 100%;
+    background-color: #ECECEC;
+}
+
+
+
+.comment_detail
+{
+    position: absolute;
+    padding-left: 75px;
+    padding-top: 5px;
+    margin-top: 60px;
+    height: 20px;
+    width: 100%;
+    font-size: 13px;
+    background-image: url(./image/comment_bg.gif);
+    background-repeat: no-repeat;
+    background-position: left 10% top;
+    background-size: 15px 15px;
+}
+
+.comment_detail a
+{
+    text-decoration: none;
+}
+
+.comment_detail a:hover
+{
+    text-decoration: underline;
+}
+.comment_form_tittle
+{
+    margin-bottom: 3px;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 0.6;
+    text-align: center;
+}
+
+.comment_form table,th, td 
+{
+    padding-top: 0px;
+    padding-left: 2px;
+    font-size:14px;
+ }
+  
+.comment_form td 
+{
+    width: 120px;
+}
+
+.comment_form input
+{
+    width:250px;
+    padding-left: 2px;
+}
+
+.comment_form textarea 
+{
+    min-width:250px;
+    max-width:350px;
+    min-height:100px;
+    padding-left: 2px;
+}
