@@ -132,20 +132,20 @@ body
   
 .comment_form td 
 {
-    width: 120px;
+    width: 100px;
 }
 
 .comment_form input
 {
-    width:120px;
+    width:150px;
     padding-left: 2px;
 }
 
 .comment_form textarea 
 {
-    min-width: 120px;
-    width:370px;
-    max-width: 370px;
+    min-width: 150px;
+    width:380px;
+    max-width: 380px;
     min-height:50px;
     padding-left: 2px;
 }
