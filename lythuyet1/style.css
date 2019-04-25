@@ -2,8 +2,18 @@ body
 {
     margin: 0px;
     padding-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
 }
 
 .page
@@ -11,14 +21,22 @@ body
     margin: 0 auto;
     width: 500px;
     height: auto;
-    border: 1px solid #0033FF;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+}
+
+.title
+{
+    padding-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .profile_title
 {
     margin-top: 0px;
     margin-bottom: 2px;
-    padding-left: 5px;
     height: 25px;
     background: url(./image/shadowTitle.png);
     background-repeat: no-repeat;
@@ -29,14 +47,16 @@ body
 {
     float: left;
     clear: right;
-    margin: 0 15px;
-    width: 90px;
-    height: 100px;
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 83px;
+    height: 90px;
 }
 
 .profile_content
 {
-    margin-left: 5px;
+    margin: 0 10px;
+    padding-left: 5px;
     height: 100px;
     overflow: scroll;
 }
@@ -49,13 +69,14 @@ body
 .content_title
 {
     margin-top: 20px;
-    padding-left: 5px;
+    margin-bottom: 15px;
 }
 
 .content ul
 {
-    margin-left: 10px;
+    margin: 0 38px;
     margin-bottom: 20px;
+    padding-left: 0;
     list-style: none;
 }
 
@@ -63,18 +84,24 @@ body
 {
     content: url("./image/star.png");
     margin-right: 5px;
+    margin-top: 0px;
 }
 
 .content li
 {
-    margin-bottom: 8px;
+    margin-bottom: 3px;
+}
+
+.comment
+{
+    margin-top: 35px;
 }
 
 .comment_posted
 {
     position: relative;
     padding-top: 0px;
-    height: 60px;
+    height: 58px;
     font-size: 15px;
 }
 
@@ -83,8 +110,9 @@ body
 {
     position: absolute;
     top: 10px;
-    padding: 2px 0px;
+    padding: 5px 20px;
     width: 100%;
+    box-sizing: border-box;
     background-color: #ECECEC;
 }
 
@@ -93,32 +121,23 @@ body
 .comment_detail
 {
     position: absolute;
-    padding-left: 73px;
+    padding-left: 52px;
     padding-top: 8px;
-    margin-top: 58px;
-    height: 20px;
+    margin-top: 60px;
+    height: 15px;
     width: 100%;
     font-size: 13px;
     background-image: url(./image/comment_bg.gif);
     background-repeat: no-repeat;
-    background-position: left 25px top 5px;
-    background-size: 35px 15px;
+    background-position: left 15px top 5px;
+    background-size: 35px 16px;
 }
 
-.comment_detail a
-{
-    text-decoration: none;
-}
 
-.comment_detail a:hover
-{
-    text-decoration: underline;
-}
 .comment_form_tittle
 {
     margin-bottom: 3px;
-    margin-top: 50px;
-    font-size: 17px;
+    margin-top: 55px;
     line-height: 0.6;
     text-align: center;
 }
@@ -137,15 +156,16 @@ body
 
 .comment_form input
 {
-    width:150px;
+    width:140px;
     padding-left: 2px;
 }
 
 .comment_form textarea 
 {
-    min-width: 150px;
-    width:380px;
-    max-width: 380px;
-    min-height:50px;
     padding-left: 2px;
+    margin-top: 2px;
+    width: 380px;
+    min-width: 150px;
+    max-width: 380px;
+    min-height: 77px;
 }
