@@ -28,11 +28,21 @@ body
     list-style: none;
 }
 
+.header a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover
+{
+    color: gold;
+} 
+
 .header li
 {
     display: inline-block;
     text-align: center;
-    color: white;
 }
 
 .header h3
@@ -86,6 +96,11 @@ body
     color: #595959;
 }
 
+.menu_list a:hover
+{
+    color: white;
+}
+
 .right_content
 {
     margin-top: 5px;
@@ -123,10 +138,12 @@ body
     padding-left: 20px;
     color: white;
     font-size: 11px;
+    text-decoration: none;
     background-image: url(./image/arrow.png);
     background-repeat: no-repeat;
     background-position:  top 1px left;
 }
+
 
 .footer
 {
@@ -142,5 +159,11 @@ body
 
 .footer a
 {
+    color: #595959;
     text-decoration: underline;
+}
+
+.footer a:hover
+{
+    color: white;
 }
