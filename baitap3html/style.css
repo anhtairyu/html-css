@@ -96,10 +96,6 @@ body
     color: #595959;
 }
 
-.menu_list a:hover
-{
-    color: gold;
-} 
 
 .menu_list a:hover
 {
@@ -149,6 +145,11 @@ body
     background-position:  top 1px left;
 }
 
+.more:hover
+{
+    color: gold;
+    text-decoration: underline;
+} 
 
 .footer
 {
