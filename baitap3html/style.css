@@ -98,6 +98,11 @@ body
 
 .menu_list a:hover
 {
+    color: gold;
+} 
+
+.menu_list a:hover
+{
     color: white;
 }
 
